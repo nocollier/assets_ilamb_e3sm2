@@ -1,0 +1,34 @@
+E3SM-1-1:
+  modelname: E3SM-1-1
+  color: "#e7550d"
+  path: None
+  paths:
+    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/cVeg/gr/v20220127
+    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/gpp/gr/v20220127
+    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/lai/gr/v20200324
+    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/mrro/gr/v20200324
+    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/mrsos/gr/v20200324
+    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/nbp/gr/v20220127
+    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/ra/gr/v20220127
+    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/rh/gr/v20220127
+    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/tsl/gr/v20200324
+    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/fx/sftlf/gr/v20201015
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Amon/evspsbl/gr/v20191211
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Amon/hfls/gr/v20191211
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Amon/hfss/gr/v20191211
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Amon/pr/gr/v20191211
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Amon/rlds/gr/v20191211
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Amon/rlus/gr/v20191211
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Amon/rsds/gr/v20191211
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Amon/rsus/gr/v20191211
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Amon/tas/gr/v20191211
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/lai/gr/v20200324
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/mrro/gr/v20200324
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/mrsos/gr/v20200324
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/tsl/gr/v20200324
+    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/fx/areacella/gr/v20191212
+
+BGCv2LNDATM:
+  modelname: BGCv2LNDATM
+  color: "#31a454"
+  path: /pscratch/sd/f/feng809/E3SM_output/MODELS/BGCv2LNDATM/

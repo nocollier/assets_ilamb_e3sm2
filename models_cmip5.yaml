@@ -1,0 +1,27 @@
+bcc-csm1-1:
+  modelname: bcc-csm1-1
+  path: /global/cfs/projectdirs/m2467/jkumar/projects/interface/ILAMB-Data/MODELS/CMIP5/bcc-csm1-1
+CanESM2:
+  modelname: CanESM2
+  path: /global/cfs/projectdirs/m2467/jkumar/projects/interface/ILAMB-Data/MODELS/CMIP5/CanESM2
+CESM1-BGC:
+  modelname: CESM1-BGC
+  path: /global/cfs/projectdirs/m2467/jkumar/projects/interface/ILAMB-Data/MODELS/CMIP5/CESM1-BGC
+GFDL-ESM2G:
+  modelname: GFDL-ESM2G
+  path: /global/cfs/projectdirs/m2467/jkumar/projects/interface/ILAMB-Data/MODELS/CMIP5/GFDL-ESM2G
+IPSL-CM5A-LR:
+  modelname: IPSL-CM5A-LR
+  path: /global/cfs/projectdirs/m2467/jkumar/projects/interface/ILAMB-Data/MODELS/CMIP5/IPSL-CM5A-LR
+MIROC-ESM:
+  modelname: MIROC-ESM
+  path: /global/cfs/projectdirs/m2467/jkumar/projects/interface/ILAMB-Data/MODELS/CMIP5/MIROC-ESM
+MPI-ESM-LR:
+  modelname: MPI-ESM-LR
+  path: /global/cfs/projectdirs/m2467/jkumar/projects/interface/ILAMB-Data/MODELS/CMIP5/MPI-ESM-LR
+NorESM1-ME:
+  modelname: NorESM1-ME
+  path: /global/cfs/projectdirs/m2467/jkumar/projects/interface/ILAMB-Data/MODELS/CMIP5/NorESM1-ME
+UK-HadGEM2-ES:
+  modelname: UK-HadGEM2-ES
+  path: /global/cfs/projectdirs/m2467/jkumar/projects/interface/ILAMB-Data/MODELS/CMIP5/HadGEM2-ES
