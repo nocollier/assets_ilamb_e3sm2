@@ -349,8 +349,11 @@ E3SM-1-1:
     - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/mrsos/gr/v20200324
     - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/Lmon/tsl/gr/v20200324
     - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/fx/areacella/gr/v20191212
-
 BGCv2LNDATM:
   modelname: BGCv2LNDATM
   color: "#d72728"
   path: /pscratch/sd/f/feng809/E3SM_output/MODELS/BGCv2LNDATM/
+I20TRGSWCNP:
+  modelname: I20TRGSWCNP
+  color: "#ac1f20"
+  path: /pscratch/sd/f/feng809/E3SM_output/MODELS/I20TRGSWCNP/
