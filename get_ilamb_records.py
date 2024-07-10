@@ -1,19 +1,28 @@
-from intake_esgf import ESGFCatalog
-import sys
 import re
+import sys
+from argparse import ArgumentParser
 from pathlib import Path
-from intake_esgf.exceptions import NoSearchResults
+
 import intake_esgf
+from intake_esgf import ESGFCatalog
+from intake_esgf.exceptions import NoSearchResults
 
-intake_esgf.conf.set(indices={'ornl-dev':False,'anl-dev':False,'esgf-node.llnl.gov':True})
+parser = ArgumentParser(
+    prog="get_ilamb_records",
+    description="Print paths to data in the NERSC ESG data lake",
+)
+parser.add_argument("-s", "--source_id", required=True)
+parser.add_argument("-e", "--experiment_id", default="historical")
+args = parser.parse_args()
 
-if len(sys.argv) != 2:
-    print(f"Usage: python {__file__.split('/')[-1]} source_id")
-    sys.exit(1)
+intake_esgf.conf.set(
+    indices={"ornl-dev": False, "anl-dev": False, "esgf-node.llnl.gov": True}
+)
+intake_esgf.conf.set(additional_df_cols=[])
 
 search = {
-    "experiment_id": "historical",
-    "source_id": sys.argv[1],
+    "experiment_id": args.experiment_id,
+    "source_id": args.source_id,
     "frequency": "mon",
     "variable_id": [
         "burntFractionAll",
@@ -54,7 +63,7 @@ try:
     cat.search(**search)
 except NoSearchResults:
     msr = False
-    search['project'] = 'CMIP5'
+    search["project"] = "CMIP5"
     for cmip5, cmip6 in zip(
         ["experiment", "model", "time_frequency", "variable"],
         ["experiment_id", "source_id", "frequency", "variable_id"],
