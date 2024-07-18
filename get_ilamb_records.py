@@ -15,9 +15,9 @@ parser.add_argument("-s", "--source_id", required=True)
 parser.add_argument("-e", "--experiment_id", default="historical")
 args = parser.parse_args()
 
-intake_esgf.conf.set(
-    indices={"ornl-dev": False, "anl-dev": False, "esgf-node.llnl.gov": True}
-)
+intake_esgf.conf.set(all_indices=True)
+#    indices={"ornl-dev": False, "anl-dev": False, "esgf-node.llnl.gov": True}
+#)
 intake_esgf.conf.set(additional_df_cols=[])
 
 search = {
@@ -74,11 +74,11 @@ cat.remove_ensembles()
 ds = cat.to_dataset_dict(add_measures=msr)
 files = re.findall(r"accessed\s(.*)\n", cat.session_log())
 files = list(set([Path(f).parent for f in files]))
-files = "\n".join([f"    - {f}" for f in sorted(files)])
+files = "\n".join([f"    - {f}" for f in sorted(files,key=lambda f: str(f).split("/")[-3])])
 print(
     f"""
-{sys.argv[1]}:
-  modelname: {sys.argv[1]}
+{args.source_id}:
+  modelname: {args.source_id}
   path: None
   paths:
 {files}"""
