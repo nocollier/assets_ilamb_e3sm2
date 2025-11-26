@@ -57,23 +57,6 @@ CanESM5:
     - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/CCCma/CanESM5/esm-hist/r1i1p1f1/Amon/tasmax/gn/v20190429
     - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/CCCma/CanESM5/esm-hist/r1i1p1f1/Amon/tasmin/gn/v20190429
     - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/CCCma/CanESM5/esm-hist/r1i1p1f1/Lmon/tsl/gn/v20190429  
-CESM2:
-  modelname: CESM2
-  color: "#8d6d31"
-  path: None
-  paths:
-    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/fx/areacella/gn/v20190801
-    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/Emon/fBNF/gn/v20190801
-    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/ImonAnt/hfls/gn/v20190801
-    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/ImonAnt/hfss/gn/v20190801
-    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/Lmon/lai/gn/v20190801
-    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/Lmon/mrro/gn/v20190801
-    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/Lmon/mrsos/gn/v20190801
-    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/Lmon/nbp/gn/v20190802
-    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/Amon/rlus/gn/v20190801
-    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/ImonGre/rsds/gn/v20190801
-    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/fx/sftlf/gn/v20190801
-    - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/Amon/tas/gn/v20190801  
 GFDL-ESM4:
   modelname: GFDL-ESM4
   color: "#853c39"
@@ -150,6 +133,7 @@ UKESM1-0-LL:
     - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/MOHC/UKESM1-0-LL/esm-hist/r1i1p1f2/Amon/hurs/gn/v20190723
     - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/MOHC/UKESM1-0-LL/esm-hist/r1i1p1f2/Lmon/lai/gn/v20190723
     - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/MOHC/UKESM1-0-LL/esm-hist/r1i1p1f2/Lmon/nbp/gn/v20190723
+    - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/MOHC/UKESM1-0-LL/esm-hist/r1i1p1f2/Lmon/nbp/gn/v20190723
     - /global/cfs/projectdirs/m2467/nate/CMIP6/CMIP/MOHC/UKESM1-0-LL/esm-hist/r1i1p1f2/Amon/pr/gn/v20190723
     - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/MOHC/UKESM1-0-LL/esm-hist/r1i1p1f2/Lmon/ra/gn/v20190723
     - /global/cfs/projectdirs/m3522/cmip6/CMIP6/CMIP/MOHC/UKESM1-0-LL/esm-hist/r1i1p1f2/Lmon/rh/gn/v20190723

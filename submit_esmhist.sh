@@ -8,7 +8,7 @@
 #SBATCH -J ilamb
 #SBATCH --mail-user=nathaniel.collier@gmail.com
 #SBATCH --mail-type=ALL
-#SBATCH -A m2467
+#SBATCH -A m3522
 #SBATCH -t 4:00:0
 
 # OpenMP settings:
@@ -24,9 +24,9 @@ conda activate ilamb
 #run the application:
 srun -n 16 -c 64 --cpu_bind=cores  ilamb-run \
      --config ilamb.cfg \
-     --model_setup models_e3sm.yaml \
+     --model_setup models_update.yaml \
      --define_regions ${ILAMB_ROOT}/DATA/regions/GlobalLand.nc ${ILAMB_ROOT}/DATA/regions/LandRegions.nc regions.txt \
-     --regions global southamericaamazon eqas eqaf hilat \
+     --regions global southamericaamazon eqas eqaf hilat temperate \
      --rmse_score_basis cycle \
      --title "esm-hist and E3SM" \
      --build_dir _build_esmhist
